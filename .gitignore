@@ -1,0 +1,30 @@
+# ---- 日志文件 ----
+*.log
+
+# ---- 系统文件 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 本地环境/IDE 配置 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- 打包相关的临时文件 ----
+# 如果你用 PyInstaller 打包 Python 脚本
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# ---- 你自己的配置文件（可能有密码或路径） ----
+# 这里按你实际的配置文件名来写，比如：
+config.ini
+local.conf
+.env
+
+# ---- 收费的 exe 文件（绝不让他溜进源码仓库） ----
+*.exe
