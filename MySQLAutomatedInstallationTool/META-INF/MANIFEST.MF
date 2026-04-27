@@ -1,0 +1,40 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Build-Jdk-Spec: 17
+Implementation-Title: jsoup Java HTML Parser
+Implementation-Version: 1.22.1
+Implementation-Vendor: Jonathan Hedley
+Multi-Release: true
+Bnd-LastModified: 1767235346413
+Bundle-Description: jsoup is a Java library that simplifies working with
+  real-world HTML and XML. It offers an easy-to-use API for URL fetching
+ , data parsing, extraction, and manipulation using DOM API methods, CSS
+ , and xpath selectors. jsoup implements the WHATWG HTML5 specification,
+  and parses HTML to the same DOM as modern browsers.
+Bundle-DocURL: https://jsoup.org/
+Bundle-License: https://jsoup.org/license
+Bundle-ManifestVersion: 2
+Bundle-Name: jsoup Java HTML Parser
+Bundle-SymbolicName: org.jsoup
+Bundle-Vendor: Jonathan Hedley
+Bundle-Version: 1.22.1
+Export-Package: org.jsoup;version="1.22.1";uses:="javax.net.ssl,org.jsou
+ p.helper,org.jsoup.nodes,org.jsoup.parser,org.jsoup.safety,org.jspecify
+ .annotations",org.jsoup.examples;version="1.22.1",org.jsoup.helper;vers
+ ion="1.22.1";uses:="javax.net.ssl,javax.xml.parsers,org.jsoup,org.jsoup
+ .nodes,org.jsoup.parser,org.jsoup.select,org.jspecify.annotations,org.w
+ 3c.dom",org.jsoup.internal;version="1.22.1";uses:="org.jsoup,org.jspeci
+ fy.annotations",org.jsoup.nodes;version="1.22.1";uses:="org.jsoup,org.j
+ soup.internal,org.jsoup.parser,org.jsoup.select,org.jspecify.annotation
+ s",org.jsoup.parser;version="1.22.1";uses:="org.jsoup.nodes,org.jsoup.s
+ elect,org.jspecify.annotations",org.jsoup.safety;version="1.22.1";uses:
+ ="org.jsoup.nodes",org.jsoup.select;version="1.22.1";uses:="org.jsoup.h
+ elper,org.jsoup.nodes,org.jspecify.annotations"
+Import-Package: org.jspecify.annotations;resolution:=optional,com.google
+ .re2j;resolution:=optional,javax.net.ssl,javax.xml.namespace,javax.xml.
+ parsers,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform
+ .stream,javax.xml.xpath,org.w3c.dom
+Originally-Created-By: Apache Maven Bundle Plugin 5.1.9
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
+
